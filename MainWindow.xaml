@@ -29,6 +29,7 @@
                 <KeyBinding Key="Insert" Command="{Binding SaveChangesCommand}" />
             </DataGrid.InputBindings>
             <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="*"/>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
                 <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*"/>
                 <DataGridTextColumn Header="Weight" Binding="{Binding Weight}" Width="Auto"/>
